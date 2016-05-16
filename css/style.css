@@ -1,0 +1,121 @@
+/* Sticky footer */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+/* Sticky footer */
+
+.homenav{
+	height: 110px;
+	background-color: #ffffff;
+}
+.navContent a{
+	font-weight: bold;
+	color: #424242;
+}
+.slider{
+	margin-top: 0.1%;
+	position: relative;
+	z-index: -10;
+}
+.aboutTfbcs{
+	padding: 6% 0;
+}
+.dropdown-content {
+  background-color: #FFFFFF;
+  margin: 0;
+  display: none;
+  min-width: 200px; /* Changed this to accomodate content width */
+  max-height: auto;
+	margin-left: -1px; /* Add this to keep dropdown in line with edge of navbar */
+  overflow: hidden; /* Changed this from overflow-y:auto; to overflow:hidden; */
+  opacity: 0;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 1;
+  will-change: width, height;
+}
+.dropdown-content li a{
+	color: #2979FF;
+}
+.content-admin li a{
+  color: #616161;
+}
+.hidden{
+  display: none;
+}
+.visible{
+  display: block;
+}
+.admin_nav{
+  background-color: #616161;
+}
+.admin_nav, .principal_nav, .faculty_nav, .student_nav{
+  padding: 0 5%;
+}
+.nav_name{
+  font-weight: bold;
+}
+.material-icons{
+  display: inline-block !important;
+}
+.icon-text{
+  font-size: 1.2em !important;
+}
+.material-icons, .icon-text{
+  vertical-align: middle;
+}
+.page-footer{
+  background-color: #2979FF !important; 
+}
+.tfbcs_logo_account{
+  margin-bottom: 15%;
+  max-height: 135px;
+  max-width: 135px;
+  position: relative;
+  top: 0; 
+  left: 50%;
+  transform: translate(-50%, 25%);
+}
+.address{
+  margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Pace minimalist loader */
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background: #2979ff;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 2px;
+}
+/* Pace minimalist loader */
