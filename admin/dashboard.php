@@ -1,7 +1,7 @@
 <?php
 	session_start();
 	if( !isset($_SESSION['adminaccountid']) ){
-		header('Location: login.php');
+		header('Location: index.php');
 	}
 ?>
 <!DOCTYPE html>
